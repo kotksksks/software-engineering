@@ -30,7 +30,7 @@ print('Результат:', x != 5)
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.1.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.1.png)
 
 ## Выводы
 - Развернутый вывод
@@ -44,7 +44,7 @@ print(f'Переменные: {x}, {y}, {z}')
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.2.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.2.png)
 
 ## Выводы
 - Развернутый вывод
@@ -57,8 +57,8 @@ res = int(input('Введите число: '))
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.3.1.png])
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.3.2.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.3.1.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.3.2.png)
 
 ## Выводы
 - Развернутый вывод
@@ -72,7 +72,7 @@ print('Результат:\n', string.rjust(15))
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.4.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.4.png)
 
 ## Выводы
 - Развернутый вывод
@@ -86,7 +86,7 @@ print(f'Сегодня {day} {month} {year}. ', end='Всего хорошего
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.5.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.5.png)
 
 ## Выводы
 - Развернутый вывод
@@ -100,7 +100,7 @@ print(' my '.join(phrase.split()))
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.6.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.6.png)
 
 ## Выводы
 - Развернутый вывод
@@ -114,7 +114,7 @@ print('Длина предложения "Hello World":', len(phrase))
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.7.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.7.png)
 
 ## Выводы
 - Развернутый вывод
@@ -128,7 +128,7 @@ print(phrase.lower())
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.8.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.8.png)
 
 ## Выводы
 - Развернутый вывод
@@ -144,7 +144,7 @@ print('Результат:', res)
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.9.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.9.png)
 
 ## Выводы
 - Развернутый вывод
@@ -160,7 +160,7 @@ print('Результат:', res)
 ```
 
 ## Результат
-![Меню]([https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.10.png])
+![Меню](https://github.com/segamega-drive/software_engineering/blob/df831b62851b5ab81042d10ad8a3e92b062cc82b/img/2.10.png)
 
 ## Выводы
 - Развернутый вывод
