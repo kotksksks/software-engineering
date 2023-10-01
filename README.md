@@ -1,4 +1,4 @@
-# Тема 6. Работа с файлами (ввод, вывод)
+# Тема 7. Работа с файлами (ввод, вывод)
 Отчет по Теме #7 выполнил(а):
 - Сбитнева Мария Алексеевна
 - ЗПИЭ-20-2
@@ -18,6 +18,8 @@
 
 ## Самостоятельная работа №1
 ### Найдите в интернете любую статью (объем статьи не менее 200 слов), скопируйте ее содержимое в файл и напишите программу, которая считает количество слов в текстовом файле и определит самое часто встречающееся слово. Результатом выполнения задачи будет: скриншот файла со статьей, листинг кода, и вывод в консоль, в котором будет указана вся необходимая информация.
+
+![Меню](https://github.com/segamega-drive/software_engineering/blob/fe71cac654899315164ba881b67ffd8241505f38/img/7.1.1.png)
 
 ```python
 import re
@@ -50,7 +52,7 @@ file.close()
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.1.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/fe71cac654899315164ba881b67ffd8241505f38/img/7.1.png)
 
 ## Выводы
 В данном задании мы знакомимся с 
@@ -93,7 +95,7 @@ file.close()
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.3.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/fe71cac654899315164ba881b67ffd8241505f38/img/7.3.png)
 
 ## Выводы
 В данном задании 
@@ -123,7 +125,7 @@ file.close()
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.4.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/fe71cac654899315164ba881b67ffd8241505f38/img/7.4.png)
 
 ## Выводы
 В данном задании 
