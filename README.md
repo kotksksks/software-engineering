@@ -27,7 +27,7 @@ print(lst, tple, sep='\n')
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.1.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/de4c552f4b3ea35b3f5643e5d6e1381020d8df07/img/6.1.png)
 
 ## Выводы
 В данном задании мы знакомимся с 
@@ -36,22 +36,27 @@ print(lst, tple, sep='\n')
 ### Николай знает, что кортежи являются неизменяемыми, но он очень упрямый и всегда хочет доказать, что он прав. Студент решил создать функцию, которая будет удалять первое появление определенного элемента из кортежа по значению и возвращать кортеж без него. Попробуйте повторить шедевр не признающего авторитеты начинающего программиста. Но учтите, что Николай не всегда уверен в наличии элемента в кортеже (в этом случае кортеж вернется функцией в исходном виде).
 
 ```python
+tuples = ['(1, 2, 3), 1)', '(1, 2, 3, 1, 2, 3, 4, 5, 2, 3, 4, 2, 4, 2), 3)', '(2, 4, 6, 6, 4, 2), 9)']
+
+
 def remove_element(tple, element):
-    if element in tple:
-        lst = list(tple)
-        index = lst.index(element)
-        lst.pop(index)
+    lst = list(tple)
+    if element in lst:
+        lst.remove(element)
         return tuple(lst)
     else:
         return tple
 
 
-new_tuple = remove_element(tple, element)
-print(new_tuple)
+for tpl in tuples:
+    tple = tuple(map(int, tpl[:-4].strip('()').split(',')))
+    element = int(tpl[-2:-1][0])
+    new_tuple = remove_element(tple, element)
+    print(new_tuple)
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.2.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/924f953bbe92c3bf7707405613555ce91e1b4de5/img/6.2.png)
 
 ## Выводы
 В данном задании 
@@ -79,7 +84,7 @@ print(count_numbers(nums))
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.3.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/924f953bbe92c3bf7707405613555ce91e1b4de5/img/6.3.png)
 
 ## Выводы
 В данном задании 
@@ -88,6 +93,9 @@ print(count_numbers(nums))
 ### Ваш хороший друг владеет офисом со входом по электронным картам, ему нужно чтобы вы написали программу, которая показывала в каком порядке сотрудники входили и выходили из офиса. Определение сотрудника происходит по id. Напишите функцию, которая на вход принимает кортеж и случайный элемент (id), его можно придумать самостоятельно. Требуется вернуть новый кортеж, начинающийся с первого появления элемента в нем и заканчивающийся вторым его появлением включительно. Если элемента нет вовсе – вернуть пустой кортеж. Если элемент встречается только один раз, то вернуть кортеж, который начинается с него и идет до конца исходного.
 
 ```python
+tuples = ['(1, 2, 3), 8)', '(1, 8, 3, 4, 8, 8, 9, 2), 8)', '(1, 2, 8, 5, 1, 2, 9), 8)']
+
+
 def find_element(tple, element):
     if tple.count(element) > 0:
         start_index = tple.index(element)
@@ -96,13 +104,15 @@ def find_element(tple, element):
     else:
         return ()
 
-
-new_tuple = find_element(tple, element)
-print(new_tuple)
+for tpl in tuples:
+    tple = tuple(map(int, tpl[:-4].strip('()').split(',')))
+    element = int(tpl[-2:-1][0])
+    new_tuple = find_element(tple, element)
+    print(new_tuple)
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.4.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/924f953bbe92c3bf7707405613555ce91e1b4de5/img/6.4.png)
 
 ## Выводы
 В данном задании 
@@ -119,10 +129,10 @@ print(*tple)
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/e15899fc1fb28ef3e44cdcb1b711ff85349d9e5a/img/5.5.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/de4c552f4b3ea35b3f5643e5d6e1381020d8df07/img/6.5.png)
 
 ## Выводы
 В данном задании 
 
 ## Общие выводы по теме
-В данной теме мы 
+В данной теме мы ознакомились с такими типами данных как словари и кортежи.
