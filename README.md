@@ -56,7 +56,7 @@ for tpl in tuples:
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/924f953bbe92c3bf7707405613555ce91e1b4de5/img/6.2.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/b48a6b45eedb441253c24bd9375c242a21529f24/img/6.2.png)
 
 ## Выводы
 В данном задании 
@@ -112,7 +112,7 @@ for tpl in tuples:
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/924f953bbe92c3bf7707405613555ce91e1b4de5/img/6.4.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/b48a6b45eedb441253c24bd9375c242a21529f24/img/6.4.png)
 
 ## Выводы
 В данном задании 
