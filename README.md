@@ -62,8 +62,8 @@ else:
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/af6761d9a2c16e57bd7d12c9bae594efd643aa83/img/3.3.1.png)
-![Меню](https://github.com/segamega-drive/software_engineering/blob/af6761d9a2c16e57bd7d12c9bae594efd643aa83/img/3.3.2.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/5abfddb97431cd634692c01284cdbae171118d55/img/3.3.1.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/5abfddb97431cd634692c01284cdbae171118d55/img/3.3.2.png)
 
 ## Выводы
 - Развернутый вывод
@@ -90,9 +90,9 @@ print(f'Длина: {length}\n'
 ```
 
 ### Результат
-![Меню](https://github.com/segamega-drive/software_engineering/blob/af6761d9a2c16e57bd7d12c9bae594efd643aa83/img/3.4.png)
-![Меню](https://github.com/segamega-drive/software_engineering/blob/af6761d9a2c16e57bd7d12c9bae594efd643aa83/img/3.4.1.png)
-![Меню](https://github.com/segamega-drive/software_engineering/blob/af6761d9a2c16e57bd7d12c9bae594efd643aa83/img/3.4.2.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/5abfddb97431cd634692c01284cdbae171118d55/img/3.4.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/5abfddb97431cd634692c01284cdbae171118d55/img/3.4.1.png)
+![Меню](https://github.com/segamega-drive/software_engineering/blob/5abfddb97431cd634692c01284cdbae171118d55/img/3.4.2.png)
 
 ## Выводы
 - Развернутый вывод
