@@ -61,14 +61,45 @@ file.close()
 ### У вас появилась потребность в ведении книги расходов, посмотрев все существующие варианты вы пришли к выводу что вас ничего не устраивает и нужно все делать самому. Напишите программу для учета расходов. Программа должна позволять вводить информацию о расходах, сохранять ее в файл и выводить существующие данные в консоль. Ввод информации происходит через консоль. Результатом выполнения задачи будет: скриншот файла с учетом расходов, листинг кода, и вывод в консоль, с демонстрацией работоспособности программы.
 
 ```python
+import csv
 
+
+def record_expenses(expenses):
+    date = input('Введите дату: ')
+    category = input('Введите категорию: ')
+    amount = float(input('Введите сумму: '))
+    expenses.append({'date': date, 'category': category, 'amount': amount})
+    file = open('expenses.csv', 'a')
+    writer = csv.DictWriter(file, fieldnames=['date', 'category', 'amount'])
+    writer.writerow(expenses[-1])
+
+
+def view_expenses(expenses):
+    file = open('expenses.csv', 'r')
+    reader = csv.DictReader(file, fieldnames=['date', 'category', 'amount'])
+    for row in reader:
+        print(f"{row.get('date', ''), row.get('category', ''), row.get('amount', '')}")
+
+
+expenses = []
+
+while True:
+    print('1. Добавить запись')
+    print('2. Просмотреть записи')
+    choice = int(input('Введите номер действия: '))
+
+    if choice == 1:
+        record_expenses(expenses)
+    elif choice == 2:
+        view_expenses(expenses)
+        break
 ```
 
 ### Результат
-![Меню]()
+![Меню](https://github.com/segamega-drive/software_engineering/blob/01c3cbbd7932b6df197e6ed7749eaf45a0fcbdb5/img/7.2.png)
 
 ## Выводы
-В данном задании 
+В данном задании научились работать с csv-файлами, читать из них данные и производить в них запись. Из модуля csv классы DictWriter и DictReader позволяют работать с данными в формате словаря. Цикл while может иметь в условии булевый тип данных.
   
 ## Самостоятельная работа №3
 ### Имеется файл input.txt с текстом на латинице. Напишите программу, которая выводит следующую статистику по тексту: количество букв латинского алфавита; число слов; число строк.
