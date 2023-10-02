@@ -1,1 +1,11 @@
-# software_engineering
+# Отчёты
+* [Тема 2. Базовые операции языка Python](https://github.com/segamega-drive/software_engineering/blob/Theme_2/README.md)
+* [Тема 3. Операторы, условия, циклы](https://github.com/segamega-drive/software_engineering/blob/Theme_3/README.md)
+* [Тема 4. Функции и модули](https://github.com/segamega-drive/software_engineering/blob/Theme_4/README.md)
+* [Тема 5. Базовые коллекции: множества, списки](https://github.com/segamega-drive/software_engineering/blob/Theme_5/README.md)
+* [Тема 6. Базовые коллекции: словари, кортежи](https://github.com/segamega-drive/software_engineering/blob/Theme_6/README.md)
+* [Тема 7. Работа с файлами (ввод, вывод)](https://github.com/segamega-drive/software_engineering/blob/Theme_7/README.md)
+* [Тема 8. Введение в ООП](https://github.com/segamega-drive/software_engineering/blob/Theme_8/README.md)
+* [Тема 9. Концепции и принципы ООП](https://github.com/segamega-drive/software_engineering/blob/Theme_9/README.md)
+* [Тема 10. Декораторы и исключения](https://github.com/segamega-drive/software_engineering/blob/Theme_10/README.md)
+* [Тема 11. Итераторы и генераторы](https://github.com/segamega-drive/software_engineering/blob/Theme_11/README.md)
